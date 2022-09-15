@@ -44,7 +44,7 @@ export const config = {
     horoscope: false,
 
     /** 生日消息和节日消息 */
-    birthdayMessage: false,
+    birthdayMessage: true,
   },
 
   /** 每日一言 */
