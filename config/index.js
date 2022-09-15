@@ -6,7 +6,7 @@ export const config = {
   // 公众号APP_ID
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
   // 如果你非要填这里也行。脚本也能运行
-  APP_ID: "",
+  APP_ID:"", 
 
   // 公众号APP_SECRET
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
@@ -60,9 +60,9 @@ export const config = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: "",
+      name: "喜樂", "Nosedive",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "ogSnL6d-icTR7sOa25I5yAeeEyMw",
+      id: "ogSnL6X_kMg73GxDOU1kO5Kdx6a8","ogSnL6d-icTR7sOa25I5yAeeEyMw",
       // 你想对他发送的模板消息的模板ID
       useTemplateId: "CAYXES6ZqkaQ9RaY6ltJ8cfkiGStWBfBlvZJ9w2Nq7g",
       // 所在省份
@@ -147,7 +147,7 @@ export const config = {
       // 一般都填自己
       name: "自己",
       // 自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "",
+      id: "ogSnL6d-icTR7sOa25I5yAeeEyMw",
     },
     // 你可以不断按格式往下增加
     // ...
