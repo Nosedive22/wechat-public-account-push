@@ -62,7 +62,7 @@ export const config = {
       // 想要发送的人的名字
       name: "",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "ogSnL6d-icTR7sOa25I5yAeeEyMw，ogSnL6X_kMg73GxDOU1kO5Kdx6a8",
+      id: "",
       // 你想对他发送的模板消息的模板ID
       useTemplateId: "CAYXES6ZqkaQ9RaY6ltJ8cfkiGStWBfBlvZJ9w2Nq7g",
       // 所在省份
@@ -95,28 +95,28 @@ export const config = {
       ]
     },
     {
-      name: "老婆1",
-      id: "",
-      useTemplateId: "",
-      province: "",
-      city: "",
+      name: "Nosedive",
+      id: "ogSnL6d-icTR7sOa25I5yAeeEyMw",
+      useTemplateId: "CAYXES6ZqkaQ9RaY6ltJ8cfkiGStWBfBlvZJ9w2Nq7g",
+      province: "陕西",
+      city: "西安",
       horoscopeDate: '',
       horoscopeDateType: '',
-      openUrl: "https://wangxinleo.cn",
-      festivals: [],
-      customizedDateList: []
+      openUrl: "https://proj.warmday.wang/answer/",
+      festivals: [{"type": "生日", "name": "你", "year": "2000", "date": "11-14"}],
+      customizedDateList: [{"keyword": "love_day", date: "2022-08-03"}]
     },
     {
-      name: "老婆2",
-      id: "",
-      useTemplateId: "",
-      province: "",
-      city: "",
+      name: "喜樂",
+      id: "ogSnL6X_kMg73GxDOU1kO5Kdx6a8",
+      useTemplateId: "CAYXES6ZqkaQ9RaY6ltJ8cfkiGStWBfBlvZJ9w2Nq7g",
+      province: "河南",
+      city: "新乡",
       horoscopeDate: '',
       horoscopeDateType: '',
-      openUrl: "https://wangxinleo.cn",
-      festivals: [],
-      customizedDateList: []
+      openUrl: "https://proj.warmday.wang/answer/",
+      festivals: [{"type": "生日", "name": "你", "year": "2000", "date": "11-14"}],
+      customizedDateList: [{"keyword": "love_day", date: "2022-08-03"}]
     },
     {
       name: "老婆3",
