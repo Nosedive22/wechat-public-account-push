@@ -68,7 +68,7 @@ export const config = {
       // 所在省份
       province: "河南",
       // 所在城市
-      city: "武陟",
+      city: "焦作",
       // 新历生日, 仅用作获取星座运势, 格式必须
       horoscopeDate: '11-14',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
@@ -99,7 +99,7 @@ export const config = {
       id: "ogSnL6d-icTR7sOa25I5yAeeEyMw",
       useTemplateId: "CAYXES6ZqkaQ9RaY6ltJ8cfkiGStWBfBlvZJ9w2Nq7g",
       province: "河南",
-      city: "武陟",
+      city: "焦作",
       horoscopeDate: '',
       horoscopeDateType: '',
       openUrl: "https://proj.warmday.wang/answer/",
@@ -111,7 +111,7 @@ export const config = {
       id: "ogSnL6X_kMg73GxDOU1kO5Kdx6a8",
       useTemplateId: "CAYXES6ZqkaQ9RaY6ltJ8cfkiGStWBfBlvZJ9w2Nq7g",
       province: "河南",
-      city: "武陟",
+      city: "焦作",
       horoscopeDate: '',
       horoscopeDateType: '',
       openUrl: "https://proj.warmday.wang/answer/",
