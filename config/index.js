@@ -15,7 +15,7 @@ export const config = {
 
   // 是否给文字设置多彩颜色, 和emoji不兼容
   // 如果您使用了微信测试号的模板中含有emoji表情，请填 false
-  IS_SHOW_COLOR: true,
+  IS_SHOW_COLOR:false,
 
   // 功能开关,打开：true，关闭：false
   SWITCH: {
@@ -97,7 +97,7 @@ export const config = {
     {
       name: "Nosedive",
       id: "ogSnL6d-icTR7sOa25I5yAeeEyMw",
-      useTemplateId: "CAYXES6ZqkaQ9RaY6ltJ8cfkiGStWBfBlvZJ9w2Nq7g",
+      useTemplateId: "Yo3nWxsExSO7ghOFy2C_9jNl1sPC_C4vN7OIMo6gOVw",
       province: "广东",
       city: "肇庆",
       horoscopeDate: '',
