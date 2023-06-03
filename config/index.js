@@ -66,9 +66,9 @@ export const config = {
       // 你想对他发送的模板消息的模板ID
       useTemplateId: "gjwaDDdimCUs5zLit5qPWQVtVHGgpvCSREJctKkClNc",
       // 所在省份
-      province: "河南",
+      province: "辽宁",
       // 所在城市
-      city: "新乡",
+      city: "大连",
       // 新历生日, 仅用作获取星座运势, 格式必须
       horoscopeDate: '11-14',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
@@ -98,8 +98,8 @@ export const config = {
       name: "Nosedive",
       id: "ogSnL6d-icTR7sOa25I5yAeeEyMw",
       useTemplateId: "gjwaDDdimCUs5zLit5qPWQVtVHGgpvCSREJctKkClNc",
-      province: "河南",
-      city: "新乡",
+      province: "辽宁",
+      city: "大连",
       horoscopeDate: '',
       horoscopeDateType: '',
       openUrl: "https://proj.warmday.wang/answer/",
@@ -110,8 +110,8 @@ export const config = {
       name: "喜樂",
       id: "ogSnL6X_kMg73GxDOU1kO5Kdx6a8",
       useTemplateId: "gjwaDDdimCUs5zLit5qPWQVtVHGgpvCSREJctKkClNc",
-      province: "河南",
-      city: "新乡",
+      province: "辽宁",
+      city: "大连",
       horoscopeDate: '',
       horoscopeDateType: '',
       openUrl: "https://proj.warmday.wang/answer/",
