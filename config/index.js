@@ -103,7 +103,7 @@ export const config = {
       horoscopeDate: '',
       horoscopeDateType: '',
       openUrl: "https://proj.warmday.wang/answer/",
-      festivals: [{"type": "*生日", "name": "你", "year": "2000", "date": "11-14"}],
+      festivals: [{"type": "生日", "name": "你", "year": "2000", "date": "12-1"}],
       customizedDateList: [{"keyword": "love_day", date: "2022-08-03"}]
     },
     {
@@ -115,7 +115,7 @@ export const config = {
       horoscopeDate: '',
       horoscopeDateType: '',
       openUrl: "https://proj.warmday.wang/answer/",
-      festivals: [{"type": "*生日", "name": "你", "year": "2000", "date": "11-14"}],
+      festivals: [{"type": "生日", "name": "你", "year": "2000", "date": "12-1"}],
       customizedDateList: [{"keyword": "love_day", date: "2022-08-03"}]
     },
     {
