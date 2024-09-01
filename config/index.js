@@ -87,19 +87,19 @@ export const config = {
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
       customizedDateList: [
         // 在一起的日子
-        {"keyword": "love_day", date: "2022-08-03"},
+        { "keyword" : "love_day" , date : "2022-08-03" } ,
         // 结婚纪念日
-        {"keyword": "birthday", date: "2000-08-14"},
+        { "keyword" : "birthday" , date : "2000-08-14" } ,
         // 退伍日
-        {"keyword": "ex_day", date: "2022-09-10"},
+        { "keyword" : "ex_day" , date : "2022-09-10" } ,
       ]
-    },
+    } ,
     {
-      name: "Nosedive",
+      name : "Nosedive" ,
       id: "ogSnL6d-icTR7sOa25I5yAeeEyMw",
       useTemplateId: "gjwaDDdimCUs5zLit5qPWQVtVHGgpvCSREJctKkClNc",
-      province: "辽宁",
-      city: "大连",
+      province: "河南",
+      city: "新乡",
       horoscopeDate: '',
       horoscopeDateType: '',
       openUrl: "https://proj.warmday.wang/answer/",
@@ -109,75 +109,75 @@ export const config = {
     {
       name: "喜樂",
       id: "ogSnL6X_kMg73GxDOU1kO5Kdx6a8",
-      useTemplateId: "gjwaDDdimCUs5zLit5qPWQVtVHGgpvCSREJctKkClNc",
-      province: "辽宁",
-      city: "大连",
-      horoscopeDate: '',
-      horoscopeDateType: '',
-      openUrl: "https://proj.warmday.wang/answer/",
-      festivals: [{"type": "生日", "name": "你", "year": "2000", "date": "12-1"}],
-      customizedDateList: [{"keyword": "love_day", date: "2022-08-03"}]
-    },
+      useTemplateId: "gjwaDDdimCUs5zLit5qPWQVtVHGgpvCSREJctKkClNc" ,
+      province : "河南" ,
+      city : "新乡" ,
+      horoscopeDate : '' ,
+      horoscopeDateType : '' ,
+      openUrl : "https://proj.warmday.wang/answer/" ,
+      festivals : [ { "type" : "生日" , "name" : "你" , "year" : "2000" , "date" : "12-1" } ] ,
+      customizedDateList : [ { "keyword" : "love_day" , date : "2022-08-03" } ]
+    } ,
     {
-      name: "老婆3",
-      id: "",
-      useTemplateId: "",
-      province: "",
-      city: "",
-      horoscopeDate: '',
-      horoscopeDateType: '',
-      openUrl: "https://wangxinleo.cn",
-      festivals: [],
-      customizedDateList: []
-    },
+      name : "老婆3" ,
+      id : "" ,
+      useTemplateId : "" ,
+      province : "" ,
+      city : "" ,
+      horoscopeDate : '' ,
+      horoscopeDateType : '' ,
+      openUrl : "https://wangxinleo.cn" ,
+      festivals : [ ] ,
+      customizedDateList : [ ]
+    } ,
     // 你可以不断按格式往下增加
     // ...
-  ],
+  ] ,
 
   /**
    * 【推送完成提醒】 相关，主要用来展示发送是否成功/失败的数据
    */
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: "",
+  CALLBACK_TEMPLATE_ID : "" ,
 
   // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
-  CALLBACK_USERS: [
+  CALLBACK_USERS : [
     {
       // 一般都填自己
-      name: "自己",
+      name : "自己" ,
       // 自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "ogSnL6d-icTR7sOa25I5yAeeEyMw",
-    },
+      id : "ogSnL6d-icTR7sOa25I5yAeeEyMw" ,
+    } ,
     // 你可以不断按格式往下增加
     // ...
-  ],
+  ] ,
 
   /**
    * 信息配置
    */
 
-  /** 天气相关 */
+  /** 天气相关*/
 
   // 默认所在省份, USERS 中没填的话, 会默认拿这里的省份
-  PROVINCE: "广东",
+  PROVINCE : "广东" ,
   // 默认所在城市, USERS 中没填的话, 会默认拿这里的城市
-  CITY: "惠州",
+  CITY : "惠州" ,
 
-  /** 重要节日相关 */
+  /** 重要节日相关*/
 
   /**
    * 重要节日，修改名字为对应需要显示的名字, date 仅填月日即可, 请严格按照示例填写
    * type必须填！ 只能 “生日” 和 “节日” 二选一!
-   * 
-   * --- 阴历配置开始 ---
-   * 如果日期使用阴历，请在 “生日” 或 "节日“ 前添加 * 符号
-   * --- 阴历配置结束 ---
-   * 
+   *
+   * --- 阴历配置开始---
+   * 如果日期使用阴历，请在“生日” 或"节日“ 前添加* 符号
+   * --- 阴历配置结束---
+   *
    * 生日时，name填写想要展示的名字，你可以填“美丽可爱亲亲老婆”
    * 节日时，name填写相应展示的节日，你可以填“被搭讪纪念日”
-   * 
-   * --- 是否展示周岁信息开始 ---
+   *
+   * --- 是否展示周岁信息开始---
    * isShowAge: true 展示岁数, 仅type为生日生效
    * isShowAge: false 不展示岁数, 仅type为生日生效
    * 删除isShowAge属性，也会不展示岁数
@@ -209,24 +209,24 @@ export const config = {
     * */
   CUSTOMIZED_DATE_LIST: [
     // 在一起的日子
-    {"keyword": "love_day", date: "2022-09-08"},
+    { "keyword" : "love_day" , date : "2022-09-08" } ,
     // 结婚纪念日
-    {"keyword": "marry_day", date: "2022-09-09"},
+    { "keyword" : "marry_day" , date : "2022-09-09" } ,
     // 退伍日
-    {"keyword": "ex_day", date: "2022-09-10"},
+    { "keyword" : "ex_day" , date : "2022-09-10" } ,
     // 你可以不断按格式往下增加
     // ...
-  ],
+  ] ,
 
-  /** 插槽 */
+  /** 插槽*/
 
   /** 你可以在这里写超多的你想显示的内容了！
     * keyword是指暴露给测试号的模板字段，填什么就暴露什么, 请注意不要和README的出参表中的字段重复。
-    * 比如：keyword: "lover_prattle" ，在测试号中就是 {{ lover_prattle.DATA }}
+    * 比如：keyword: "lover_prattle" ，在测试号中就是{{ lover_prattle.DATA }}
     * */
-  SLOT_LIST: [
+  SLOT_LIST : [
     // 这样配置的话，就会每次发送这句话
-    {"keyword": "encourage_oneself", contents: "你主要的问题在于读书太少而想得太多"},
+    { "keyword" : "encourage_oneself" , contents : "你主要的问题在于读书太少而想得太多" } ,
     // 这样配置的话，就会每次随机选一句话发送
     {"keyword": "lover_prattle", contents: [
       "因为太喜欢你，所以看谁都像是情敌。",
