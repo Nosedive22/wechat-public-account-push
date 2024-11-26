@@ -78,7 +78,7 @@ export const config = {
       // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-       // {"type": "*生日", "name": "你", "year": "2000", "date": "11-14"},
+       // {"type": "*生日", "name": "你", "year": "2000", "date": "10-19"},
         // {"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
           {"type": "生日", "name": "你", "year": "2000", "date": "11-14"},
@@ -115,7 +115,7 @@ export const config = {
       horoscopeDate : '' ,
       horoscopeDateType : '' ,
       openUrl : "https://proj.warmday.wang/answer/" ,
-      festivals : [ { "type" : "生日" , "name" : "你" , "year" : "2000" , "date" : "12-1" } ] ,
+      festivals : [ { "type" : "生日" , "name" : "你" , "year" : "2000" , "date" : "11-14" } ] ,
       customizedDateList : [ { "keyword" : "love_day" , date : "2022-08-03" } ]
     } ,
     {
